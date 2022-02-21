@@ -72,5 +72,17 @@ namespace MontanoP3
             txbNumColors.Enabled = cbxHasLogo.Checked;
             
         }
+
+        private void btnClear_Click(object sender, EventArgs e)
+        {
+            txbOrderNum.Clear();
+            txbUserText.Clear();
+            txbNumberOfItems.Clear();
+            txbResults.Clear();
+            txbNumColors.Clear();
+            rbMug.Checked = false;
+            rbPen.Checked = false;
+            rbUSB.Checked = false;
+        }
     }
 }
