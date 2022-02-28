@@ -117,7 +117,7 @@ namespace MontanoP3
         public override string ToString()
         {
             return "Order number: " + OrderId + " You ordered " + numItems + " " + ItemType + " with " + numColors + " logos "
-                + " with the folowing text: " + UserText + ". Final price is: " + Price.ToString("c");
+                + " with the folowing text: " + UserText + ". Final price of order is: " + Price.ToString("c");
         }
     }
 }
